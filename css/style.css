@@ -1,1 +1,39 @@
 /* Main stylesheet */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+h1,
+p {
+  padding: 20px 10px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+/* Header */
+.header {
+  background-color: #c63941;
+  padding: 50px 20px;
+}
+.header h1 p {
+  font-weight: bold;
+}
+
+.header p {
+  font-family: "Roboto", sans-serif;
+  padding-top: 0;
+}
