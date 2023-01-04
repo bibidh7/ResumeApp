@@ -26,14 +26,38 @@ p {
 
 /* Header */
 .header {
-  background-color: #c63941;
+  background-color: #e51a24;
   padding: 50px 20px;
 }
-.header h1 p {
+.header h1,
+p {
   font-weight: bold;
+  color: #eee4e4;
 }
 
 .header p {
   font-family: "Roboto", sans-serif;
   padding-top: 0;
+}
+.header img {
+  width: 200px;
+  height: 200px;
+}
+.profile-img {
+  width: 50%;
+  border-radius: 100px;
+}
+
+.interest {
+  height: 500px;
+}
+
+.hobbies {
+  height: 500px;
+  background-color: #e51a24;
+}
+
+/* footer */
+.footer {
+  height: 500px;
 }
