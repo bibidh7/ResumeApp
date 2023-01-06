@@ -30,7 +30,7 @@ p {
   padding: 50px 20px;
 }
 .header h1,
-p {
+.header p {
   font-weight: bold;
   color: #eee4e4;
 }
@@ -39,20 +39,39 @@ p {
   font-family: "Roboto", sans-serif;
   padding-top: 0;
 }
-.header img {
+/* .header img {
   width: 200px;
   height: 200px;
-}
+} */
 .profile-img {
-  width: 50%;
-  border-radius: 100px;
+  width: 20%;
+  border-radius: 200px;
 }
 
+/* Interest css styles */
 .interest {
   height: 500px;
 }
 
-.hobbies {
+.container {
+  padding-top: 50px;
+  /* display: inline; */
+}
+.interest-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills-img {
+  width: 20%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.project {
   height: 500px;
   background-color: #e51a24;
 }
@@ -60,4 +79,13 @@ p {
 /* footer */
 .footer {
   height: 500px;
+}
+
+@media screen and (max-width: 650px) {
+  .interest-description {
+    display: inline;
+  }
+  .interest-description h3 {
+    font-size: 1.1rem;
+  }
 }
